@@ -17,6 +17,10 @@
 | 主场景 | `Assets/Scenes/SampleScene.unity` |
 | 运动脚本 | `Assets/MovementBall_2.cs` |
 
+## 编辑器界面
+
+![Unity 编辑器界面](UnityEditor.png)
+
 ## 运行效果
 
 - A 点：`(-6, 0.55, 0)`
@@ -138,7 +142,7 @@ float factor = Mathf.Lerp(middleFactor, 1f, Mathf.Abs(2f * t - 1f));
 ## 代码结构
 
 - `Assets/MovementBall_2.cs`：当前场景使用的简单实现，基于 `Update` 和 `Mathf.Lerp`。
-- `Assets/MovementBll.cs`：更完整的协程实现，支持暂停、重置和当前速度状态，可作为进阶参考。
+- `Assets/MovementBll.cs`：更完整的协程实现，支持暂停、重置和当前速度状态。
 
 ## 仓库内容
 
